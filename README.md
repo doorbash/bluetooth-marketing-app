@@ -1,0 +1,1 @@
+A Java application which sends files in dir directory to all bluetooth devices around.
