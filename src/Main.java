@@ -13,6 +13,8 @@ public class Main {
             return false;
         });
 
+        new File("files").mkdir();
+
         db = new DatabaseHelper("files/devices.db");
         while (true) {
             try {
