@@ -13,7 +13,9 @@ public class Main {
             return false;
         });
 
+        new File("dir").mkdir();
         new File("files").mkdir();
+
 
         db = new DatabaseHelper("files/devices.db");
         while (true) {
